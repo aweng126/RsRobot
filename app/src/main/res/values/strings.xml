@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">RsRobot</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="voice_ico">VoiceIco</string>
+
+    <string name="text_upload_success">上传成功</string>
+
+    <string name="text_upload_Failed">上传热词失败,错误码：</string>
+
+    <string name="app_id">55e570c6</string>
+
+    <string name="please_start_talking">请开始说话...</string>
+
+    <string name="buffering">正在缓冲</string>
+
+    <string name="failed_init">初始化失败,错误码：</string>
+
+    <string name="login_failed">登录失败</string>
+
+    <string name="yes">确定</string>
+
+    <string name="no">取消</string>
+
+    <string name="tips">友情提示</string>
+
+    <string name="exit_confirm">你确定要退出吗？</string>
+
+    <string name="not_supported">设备不支持蓝牙，程序退出</string>
+
+    <string name="bt_not_enabled_leaving">蓝牙未启用,程序退出</string>
+
+    <string name="not_connected">你没有连接到一个设备</string>
+
+    <string name="title_not_connected">未连接</string>
+
+    <string name="title_connected_to">已连接:</string>
+
+    <string name="title_connecting">正在连接...</string>
+
+    <string name="connected_to">连接到</string>
+
+    <string name="connected_failed">连接失败</string>
+
+    <string name="connection_break">连接断开</string>
+
+    <string name="scanning">扫描蓝牙设备...</string>
+
+    <string name="select_device">选择一个设备连接</string>
+
+    <string name="title_paired_devices">已配对的设备</string>
+
+    <string name="title_scanned_devices">扫描到的设备</string>
+
+    <string name="button_scan">扫描设备</string>
+
+    <string name="none_paired">没有已配对设备</string>
+
+    <string name="none_found">没有发现设备</string>
+
+    <string name="connect">连接一个设备</string>
+
+    <string name="setup">设置</string>
+
+    <string name="discoverable">设置蓝牙可见</string>
+
+    <string name="exit">程序退出</string>
+
+
+
+</resources>

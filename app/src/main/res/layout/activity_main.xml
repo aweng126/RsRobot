@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gusterpng"
+    tools:context=".Activitities.MainActivity">
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:id="@+id/btn_up"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="61dp"
+        android:text="上"
+        android:background="@drawable/shape"/>
+
+
+    <Button
+        android:layout_below="@+id/btn_up"
+        android:textSize="25dp"
+        android:id="@+id/btn_left"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="100dp"
+        android:layout_height="61dp"
+        android:text="左"
+        android:background="@drawable/shape"/>
+
+    <Button
+        android:layout_below="@+id/btn_left"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:id="@+id/btn_down"
+        android:layout_width="100dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="30dp"
+        android:text="下"
+        android:background="@drawable/shape"/>
+
+    <Button
+        android:layout_below="@+id/btn_up"
+        android:layout_toRightOf="@+id/btn_left"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/btn_right"
+        android:textSize="25dp"
+       android:layout_marginTop="45dp"
+        android:layout_width="100dp"
+        android:layout_height="61dp"
+        android:text="右"
+        android:background="@drawable/shape"/>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/btn_down"
+        >
+        <Button
+            android:id="@+id/btn_goahead"
+            android:textSize="25dp"
+            android:text="前"
+            android:layout_width="100dp"
+            android:layout_height="61dp"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:text="后"
+            android:textSize="25dp"
+            android:layout_width="100dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/shape"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/linear1"
+        >
+        <Button
+            android:id="@+id/btn_catch"
+            android:text="抓"
+            android:textSize="25dp"
+            android:layout_width="100dp"
+            android:layout_height="61dp"
+            android:background="@drawable/shape"/>
+
+        <Button
+            android:id="@+id/btn_release"
+            android:text="放"
+            android:textSize="25dp"
+            android:layout_width="100dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/shape"/>
+    </LinearLayout>
+
+</RelativeLayout>
